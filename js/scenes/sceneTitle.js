@@ -4,9 +4,8 @@ class SceneTitle extends Phaser.Scene {
     }
     preload()
     {
-      this.load.image("button1","images/ui/buttons/2/1.png");
-    	this.load.image("title","images/title.png");
     }
+    
     create() {
         emitter=new Phaser.Events.EventEmitter();
         controller=new Controller();
